@@ -12,9 +12,16 @@ import { crafterConf } from '@craftercms/classes';
 import { fetchIsAuthoring } from '@craftercms/ice';
 import createCache from '@emotion/cache';
 
+const siteName = process.env.NEXT_PUBLIC_CRAFTERCMS_SITE_NAME;
+if (typeof siteName === 'undefined') {
+  throw new Error('The value of `NEXT_PUBLIC_CRAFTERCMS_SITE_NAME` is not defined. Did you create a `.env` file and declare the `NEXT_PUBLIC_CRAFTERCMS_SITE_NAME` variable?');
+} else if (siteName === '') {
+  throw new Error('The site name value of is blank. Set `NEXT_PUBLIC_CRAFTERCMS_SITE_NAME=YOUR_SITE_NAME` in your .env file.');
+}
+
 crafterConf.configure({
-  baseUrl: process.env.NEXT_PUBLIC_CRAFTERCMS_HOST_NAME,
-  site: process.env.NEXT_PUBLIC_CRAFTERCMS_SITE_NAME,
+  baseUrl: process.env.NEXT_PUBLIC_CRAFTERCMS_HOST_NAME ?? '',
+  site: siteName,
   cors: true,
 });
 
