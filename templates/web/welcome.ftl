@@ -31,7 +31,7 @@
   <h1>Readme</h1>
   <ol>
     <li>
-      In the Crafter CMS site sandbox directory, you'll find a directory called
+      In the CrafterCMS site sandbox directory, you'll find a directory called
       app, which is the Next.JS app. Visit that directory on your terminal and run `yarn`
     </li>
     <li>
