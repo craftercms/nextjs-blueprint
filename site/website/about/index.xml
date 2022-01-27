@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+  <content-type>/page/about</content-type>
+  <display-template/>
+  <no-template-required>true</no-template-required>
+  <merge-strategy>inherit-levels</merge-strategy>
+  <objectGroupId>f250</objectGroupId>
+  <objectId>f2502f10-30a3-4308-6a8c-e79356219b00</objectId>
+  <file-name>index.xml</file-name>
+  <folder-name>about</folder-name>
+  <internal-name>About</internal-name>
+  <navLabel>About Us</navLabel>
+  <placeInNav>true</placeInNav>
+  <orderDefault_f>3000</orderDefault_f>
+  <createdDate>2022-01-25T10:29:08.868Z</createdDate>
+  <createdDate_dt>2022-01-25T10:29:08.868Z</createdDate_dt>
+  <lastModifiedDate>2022-01-26T13:28:42.885Z</lastModifiedDate>
+  <lastModifiedDate_dt>2022-01-27T07:52:02.106Z</lastModifiedDate_dt>
+  <title_s><![CDATA[About Us]]></title_s>
+</page>

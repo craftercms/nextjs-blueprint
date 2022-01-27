@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+  <content-type>/component/hero</content-type>
+  <display-template/>
+  <no-template-required>true</no-template-required>
+  <merge-strategy>inherit-levels</merge-strategy>
+  <objectGroupId>0074</objectGroupId>
+  <objectId>00743ad0-96de-e579-1949-61aa407ade20</objectId>
+  <internal-name>Hero</internal-name>
+  <file-name>00743ad0-96de-e579-1949-61aa407ade20.xml</file-name>
+  <folder-name/>
+  <createdDate>2022-01-25T01:04:26.972Z</createdDate>
+  <createdDate_dt>2022-01-25T01:04:26.972Z</createdDate_dt>
+  <lastModifiedDate>2022-01-26T14:06:19.684Z</lastModifiedDate>
+  <lastModifiedDate_dt>2022-01-27T07:29:45.598Z</lastModifiedDate_dt>
+  <title_s>The Sky Is The Limit</title_s>
+  <background_s><![CDATA[/static-assets/images/phil-botha-a0TJ3hy-UD8-unsplash.jpg]]></background_s>
+</component>

@@ -1,0 +1,166 @@
+<form>
+	<title>Footer</title>
+	<description />
+	<objectType>component</objectType>
+	<content-type>/component/footer</content-type>
+	<imageThumbnail />
+	<quickCreate>false</quickCreate>
+	<quickCreatePath />
+	<properties>		<property>
+			<name>display-template</name>
+			<label>Display Template</label>
+			<value />
+			<type>template</type>
+		</property>
+		<property>
+			<name>no-template-required</name>
+			<label>No Template Required</label>
+			<value>true</value>
+			<type>boolean</type>
+		</property>
+		<property>
+			<name>merge-strategy</name>
+			<label>Merge Strategy</label>
+			<value>inherit-levels</value>
+			<type>string</type>
+		</property>
+	</properties>
+	<sections>		<section>
+			<title>Footer Properties</title>
+			<description />
+			<defaultOpen>true</defaultOpen>
+			<fields>
+				<field>
+					<type>auto-filename</type>
+					<id>file-name</id>
+					<iceId />
+					<title>Component ID</title>
+					<description />
+					<defaultValue />
+					<help />
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value />
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+					</constraints>
+				</field>
+				<field>
+					<type>input</type>
+					<id>internal-name</id>
+					<iceId />
+					<title>Internal Name</title>
+					<description />
+					<defaultValue />
+					<help />
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[true]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>rte</type>
+					<id>copy_html</id>
+					<iceId />
+					<title>Copy</title>
+					<description />
+					<defaultValue />
+					<help />
+					<properties>
+						<property>
+							<name>width</name>
+							<value />
+							<type>int</type>
+						</property>
+						<property>
+							<name>height</name>
+							<value />
+							<type>int</type>
+						</property>
+						<property>
+							<name>autoGrow</name>
+							<value>true</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>enableSpellCheck</name>
+							<value>true</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>forceRootBlockPTag</name>
+							<value>true</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>forceBRTags</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>supportedChannels</name>
+							<value />
+							<type>supportedChannels</type>
+						</property>
+						<property>
+							<name>rteConfiguration</name>
+							<value>generic</value>
+							<type>string</type>
+						</property>
+						<property>
+							<name>imageManager</name>
+							<value />
+							<type>datasource:image</type>
+						</property>
+						<property>
+							<name>videoManager</name>
+							<value />
+							<type>datasource:video</type>
+						</property>
+						<property>
+							<name>fileManager</name>
+							<value />
+							<type>datasource:item</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+			</fields>
+		</section>
+	</sections>
+	<datasources>	</datasources>
+</form>
