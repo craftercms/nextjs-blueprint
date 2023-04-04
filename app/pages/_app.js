@@ -11,6 +11,8 @@ import '../styles/globals.css';
 import { crafterConf } from '@craftercms/classes';
 import { fetchIsAuthoring } from '@craftercms/ice';
 import createCache from '@emotion/cache';
+import Footer from '../components/Footer';
+import RichText from '../components/RichText';
 
 const siteName = process.env.NEXT_PUBLIC_CRAFTERCMS_SITE_NAME;
 if (typeof siteName === 'undefined') {
@@ -26,7 +28,9 @@ crafterConf.configure({
 });
 
 export const contentTypeMap = {
-  "/component/hero": Hero,
+  '/component/hero': Hero,
+  '/component/footer': Footer,
+  '/component/rte': RichText
 };
 
 const CrafterAppContext = React.createContext();
