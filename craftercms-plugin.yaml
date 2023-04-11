@@ -16,7 +16,7 @@ plugin:
     minor: 0
     patch: 0
   description: |
-    Simple empty blueprint
+    Base template for building CrafterCMS projects with Next.js.
   website:
     name: Next.js Blueprint
     url: https://github.com/craftercms/nextjs-blueprint
