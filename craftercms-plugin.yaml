@@ -22,9 +22,9 @@ plugin:
     url: https://github.com/craftercms/nextjs-blueprint
   media:
     screenshots:
-      - title: Home Page
-        description: Screenshot of the homepage
-        url: /studio/static-assets/images/blueprints/empty/bp_empty.png
+      - title: Next.js
+        description: Next.js
+        url: https://raw.githubusercontent.com/craftercms/nextjs-blueprint/master/.crafter/screenshots/default.png
   developer:
     company:
       name: CrafterCMS
