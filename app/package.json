@@ -1,5 +1,5 @@
 {
-  "name": "cw-boilerplate",
+  "name": "craftercms-blueprint-nextjs",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,32 +9,34 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "@craftercms/content": "^2.0.4",
-    "@craftercms/experience-builder": "./craftercms-experience-builder-1.0.0-beta.3.tgz",
-    "@craftercms/ice": "^2.0.4",
-    "@emotion/cache": "^11.7.1",
-    "@emotion/react": "^11.7.1",
-    "@emotion/server": "^11.4.0",
-    "@emotion/styled": "^11.6.0",
-    "@fontsource/roboto": "^4.5.1",
-    "@mui/icons-material": "^5.2.5",
-    "@mui/material": "^5.2.7",
-    "axios": "^0.24.0",
+    "@craftercms/content": "^4.0.3",
+    "@craftercms/experience-builder": "./craftercms-experience-builder-4.0.3.202304032120.tgz",
+    "@craftercms/ice": "^4.0.3",
+    "@emotion/cache": "^11.10.5",
+    "@emotion/react": "^11.10.6",
+    "@emotion/server": "^11.10.0",
+    "@emotion/styled": "^11.10.6",
+    "@fontsource/roboto": "^4.5.8",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.15",
+    "axios": "^1.3.4",
     "js-cookie": "^3.0.1",
-    "next": "12.0.7",
-    "next-auth": "^4.1.0",
+    "next": "13.2.4",
+    "next-auth": "^4.21.1",
     "prop-types": "^15.8.1",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-redux": "^7.2.6",
-    "react-world-flags": "^1.4.0",
-    "redux": "^4.1.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "^7.2.9",
+    "react-world-flags": "^1.5.1",
+    "redux": "^4.2.1",
     "redux-observable": "^2.0.0",
-    "rxjs": "^7.5.2"
+    "rxjs": "^7.5.2",
+    "swr": "^2.1.2"
   },
   "devDependencies": {
     "eslint": "8.6.0",
     "eslint-config-next": "12.0.7",
-    "prettier": "^2.5.1"
-  }
+    "prettier": "^2.8.7"
+  },
+  "packageManager": "yarn@3.5.0"
 }

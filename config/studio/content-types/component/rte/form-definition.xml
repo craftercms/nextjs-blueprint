@@ -1,8 +1,8 @@
 <form>
-  <title>Footer</title>
+  <title>Rich Text</title>
   <description />
   <objectType>component</objectType>
-  <content-type>/component/footer</content-type>
+  <content-type>/component/rte</content-type>
   <imageThumbnail />
   <quickCreate>false</quickCreate>
   <quickCreatePath />
@@ -10,7 +10,7 @@
     <property>
       <name>display-template</name>
       <label>Display Template</label>
-      <value>/templates/web/components/footer.ftl</value>
+      <value>/templates/web/components/rte.ftl</value>
       <type>template</type>
     </property>
     <property>
@@ -28,7 +28,7 @@
   </properties>
   <sections>
     <section>
-      <title>Footer Properties</title>
+      <title>Rich Text Properties</title>
       <description />
       <defaultOpen>true</defaultOpen>
       <fields>
@@ -88,50 +88,75 @@
           </constraints>
         </field>
         <field>
-          <type>input</type>
-          <id>copy_s</id>
+          <type>rte</type>
+          <id>content_html</id>
           <iceId />
-          <title>Copy</title>
+          <title>Content</title>
           <description />
           <defaultValue />
           <help />
           <properties>
             <property>
-              <name>size</name>
-              <value>50</value>
-              <type>int</type>
-            </property>
-            <property>
-              <name>maxlength</name>
-              <value>500</value>
-              <type>int</type>
-            </property>
-            <property>
-              <name>readonly</name>
+              <name>width</name>
               <value />
-              <type>boolean</type>
+              <type>int</type>
             </property>
             <property>
-              <name>tokenize</name>
+              <name>height</name>
+              <value />
+              <type>int</type>
+            </property>
+            <property>
+              <name>autoGrow</name>
               <value>false</value>
               <type>boolean</type>
             </property>
             <property>
-              <name>escapeContent</name>
+              <name>enableSpellCheck</name>
+              <value>true</value>
+              <type>boolean</type>
+            </property>
+            <property>
+              <name>forceRootBlockPTag</name>
+              <value>true</value>
+              <type>boolean</type>
+            </property>
+            <property>
+              <name>forceBRTags</name>
               <value>false</value>
               <type>boolean</type>
+            </property>
+            <property>
+              <name>supportedChannels</name>
+              <value />
+              <type>supportedChannels</type>
+            </property>
+            <property>
+              <name>rteConfiguration</name>
+              <value>generic</value>
+              <type>string</type>
+            </property>
+            <property>
+              <name>imageManager</name>
+              <value />
+              <type>datasource:image</type>
+            </property>
+            <property>
+              <name>videoManager</name>
+              <value />
+              <type>datasource:video</type>
+            </property>
+            <property>
+              <name>fileManager</name>
+              <value />
+              <type>datasource:item</type>
             </property>
           </properties>
           <constraints>
             <constraint>
               <name>required</name>
-              <value><![CDATA[true]]></value>
-              <type>boolean</type>
-            </constraint>
-            <constraint>
-              <name>pattern</name>
               <value><![CDATA[]]></value>
-              <type>string</type>
+              <type>boolean</type>
             </constraint>
           </constraints>
         </field>

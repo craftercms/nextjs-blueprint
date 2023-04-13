@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/footer</content-type>
+	<display-template/>
+	<no-template-required>true</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectId>77486456-b2bc-4134-a75e-57fdbbdf508b</objectId>
+	<internal-name>Footer</internal-name>
+	<file-name>footer.xml</file-name>
+	<copy_s><![CDATA[Copyright © CrafterCMS $YEAR]]></copy_s>
+	<createdDate>2023-04-04T14:27:32.071Z</createdDate>
+	<createdDate_dt>2023-04-04T14:27:32.071Z</createdDate_dt>
+	<lastModifiedDate>2023-04-04T14:27:32.071Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-04-04T14:27:32.071Z</lastModifiedDate_dt>
+</component>

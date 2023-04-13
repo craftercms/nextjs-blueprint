@@ -1,8 +1,8 @@
 import React, { forwardRef, useEffect, useMemo, useRef } from 'react';
 import Box from '@mui/material/Box';
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import Typography from '@mui/material/Typography';
-import { Field, RenderField } from '@craftercms/experience-builder/react';
+import { Model, RenderField } from '@craftercms/experience-builder/react';
 
 /* NextJS' Image component does not provide a ref — which RenderField (Crafter)
 * needs to add the authoring tools on top of the element. */
@@ -32,7 +32,7 @@ export default function Hero(props) {
   const { model } = props;
   return (
     <>
-      <Field model={model} component={Box} sx={{ position: 'relative', overflow: 'hidden' }}>
+      <Model model={model} component={Box} sx={{ position: 'relative', overflow: 'hidden' }}>
         <RenderField
           alt=""
           id="heroBackground_s"
@@ -44,7 +44,7 @@ export default function Hero(props) {
           model={model}
           component={ImageWithRef}
           fieldId="background_s"
-          format={(img) => `${process.env.NEXT_PUBLIC_CRAFTERCMS_HOST_NAME}${img}`}
+          render={(img) => `${process.env.NEXT_PUBLIC_CRAFTERCMS_HOST_NAME}${img}`}
         />
         <RenderField
           model={model}
@@ -55,7 +55,7 @@ export default function Hero(props) {
           sx={{ position: 'relative', color: '#fff', m: 10 }}
           align="center"
         />
-      </Field>
+      </Model>
     </>
   );
 }

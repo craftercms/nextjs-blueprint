@@ -1,25 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<content-type>/page/page</content-type>
-	<display-template>/templates/web/welcome.ftl</display-template>
-	<no-template-required>true</no-template-required>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<placeInNav>false</placeInNav>
-	<file-name>index.xml</file-name>
-	<navLabel>Home</navLabel>
-	<internal-name>Home</internal-name>
-	<orderDefault_f>-1</orderDefault_f>
-	<objectGroupId>8d7f</objectGroupId>
-	<objectId>8d7f21fa-5e09-00aa-8340-853b7db302da</objectId>
-	<folder-name/>
-	<createdDate>2017-1-31T16:18:14.000Z</createdDate>
-	<createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2022-01-27T07:30:32.301Z</lastModifiedDate>
-	<lastModifiedDate_dt>2022-01-27T07:30:32.301Z</lastModifiedDate_dt>
-	<content_o item-list="true">	<item>	<key>/site/components/00743ad0-96de-e579-1949-61aa407ade20.xml</key>
-	<value>Hero</value>
-	<include>/site/components/00743ad0-96de-e579-1949-61aa407ade20.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item></content_o>
-	<title_s>Welcome to NextJS on CrafterCMS</title_s>
+  <content-type>/page/page</content-type>
+  <display-template>/templates/web/welcome.ftl</display-template>
+  <no-template-required>true</no-template-required>
+  <merge-strategy>inherit-levels</merge-strategy>
+  <placeInNav>false</placeInNav>
+  <file-name>index.xml</file-name>
+  <navLabel>Home</navLabel>
+  <internal-name>Home</internal-name>
+  <orderDefault_f>-1</orderDefault_f>
+  <objectGroupId>8d7f</objectGroupId>
+  <objectId>8d7f21fa-5e09-00aa-8340-853b7db302da</objectId>
+  <folder-name/>
+  <createdDate>2017-1-31T16:18:14.000Z</createdDate>
+  <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
+  <lastModifiedDate>2022-01-27T07:30:32.301Z</lastModifiedDate>
+  <lastModifiedDate_dt>2023-04-04T16:41:26.488Z</lastModifiedDate_dt>
+  <content_o item-list="true">
+    <item>
+      <key>/site/components/00743ad0-96de-e579-1949-61aa407ade20.xml</key>
+      <value>Hero</value>
+      <include>/site/components/00743ad0-96de-e579-1949-61aa407ade20.xml</include>
+      <disableFlattening>false</disableFlattening>
+    </item>
+    <item>
+      <key>/site/components/readme.xml</key>
+      <value>Readme</value>
+      <include>/site/components/readme.xml</include>
+      <disableFlattening>false</disableFlattening>
+    </item>
+  </content_o>
+  <title_s>Welcome to NextJS on CrafterCMS</title_s>
 </page>
