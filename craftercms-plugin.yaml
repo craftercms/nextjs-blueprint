@@ -14,7 +14,7 @@ plugin:
   version:
     major: 1
     minor: 0
-    patch: 1
+    patch: 2
   description: |
     Base template for building CrafterCMS projects with Next.js.
   website:
@@ -37,9 +37,6 @@ plugin:
     name: MIT
     url: https://opensource.org/licenses/MIT
   crafterCmsVersions:
-    - major: 4
-      minor: 0
-      patch: 3
     - major: 4
       minor: 1
       patch: 0

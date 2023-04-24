@@ -395,6 +395,7 @@
                 <permission>publish_status</permission>
                 <permission>content_read</permission>
                 <permission>content_search</permission>
+		<permission>read_configuration</permission>
             </allowed-permissions>
         </rule>
     </role>
