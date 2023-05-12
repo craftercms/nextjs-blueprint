@@ -153,48 +153,48 @@
                                             <id>segment</id>
                                             <name>Segment</name>
                                             <description>User segment.
-											</description>
+                                            </description>
                                             <type>dropdown</type>
                                             <defaultValue>anonymous
-											</defaultValue>
+                                            </defaultValue>
                                             <values>
                                                 <value>
                                                     <label>Guy
-													</label>
+                                                    </label>
                                                     <value>guy
-													</value>
+                                                    </value>
                                                 </value>
                                                 <value>
                                                     <label>Gal
-													</label>
+                                                    </label>
                                                     <value>gal
-													</value>
+                                                    </value>
                                                 </value>
                                                 <value>
                                                     <label>
-														Anonymous
-													</label>
+                                                        Anonymous
+                                                    </label>
                                                     <value>
-														anonymous
-													</value>
+                                                        anonymous
+                                                    </value>
                                                 </value>
                                             </values>
                                             <helpText>Setting the segment
-												will change content
-												targeting to the
-												audience selected.
-											</helpText>
+                                                will change content
+                                                targeting to the
+                                                audience selected.
+                                            </helpText>
                                         </segment>
                                         <name>
                                             <id>name</id>
                                             <name>Name</name>
                                             <description>User's first and
-												last name.
-											</description>
+                                                last name.
+                                            </description>
                                             <type>input</type>
                                             <helpText>Enter user's first and
-												last name.
-											</helpText>
+                                                last name.
+                                            </helpText>
                                         </name>
                                     </fields>
                                 </configuration>
@@ -257,7 +257,8 @@
                     <configuration>
                         <title id="launcher.siteSectionTitle">
                             <defaultMessage>
-								Site &lt;muted&gt;• {siteName}&lt;/muted&gt;</defaultMessage>
+                                Site &lt;muted&gt;• {siteName}&lt;/muted&gt;
+                            </defaultMessage>
                         </title>
                         <widgets>
                             <widget id="craftercms.components.LauncherLinkTile">
@@ -333,51 +334,16 @@
     </widget>
     <widget id="craftercms.components.Dashboard">
         <configuration>
-		<widgets>
-		       <widget id="craftercms.components.MyRecentActivityDashlet">
-		       	<permittedRoles>
-		       		<role>admin</role>
-		       		<role>developer</role>
-		       		<role>publisher</role>
-		       	</permittedRoles>
-		       </widget>
-		       <widget id="craftercms.components.UnpublishedDashlet">
-		       	<permittedRoles>
-		       		<role>admin</role>
-		       		<role>developer</role>
-		       		<role>publisher</role>
-		       	</permittedRoles>
-		       </widget>
-		       <widget id="craftercms.components.PendingApprovalDashlet">
-		       	<permittedRoles>
-		       		<role>admin</role>
-		       		<role>developer</role>
-		       		<role>publisher</role>
-		       	</permittedRoles>
-		       </widget>
-		       <widget id="craftercms.components.ScheduledDashlet">
-		       	<permittedRoles>
-		       		<role>admin</role>
-		       		<role>developer</role>
-		       		<role>publisher</role>
-		       	</permittedRoles>
-		       </widget>
-		       <widget id="craftercms.components.RecentlyPublishedDashlet">
-		       	<permittedRoles>
-		       		<role>admin</role>
-		       		<role>developer</role>
-		       		<role>publisher</role>
-		       	</permittedRoles>
-		       </widget>
-		       <widget id="craftercms.components.ExpiringDashlet">
-		       	<permittedRoles>
-		       		<role>admin</role>
-		       		<role>developer</role>
-		       		<role>publisher</role>
-		       	</permittedRoles>
-		       </widget>
-		</widgets>
-			</mainSection>
+            <mainSection>
+                <widgets>
+                    <widget id="craftercms.components.MyRecentActivityDashlet"/>
+                    <widget id="craftercms.components.UnpublishedDashlet"/>
+                    <widget id="craftercms.components.PendingApprovalDashlet"/>
+                    <widget id="craftercms.components.ScheduledDashlet"/>
+                    <widget id="craftercms.components.RecentlyPublishedDashlet"/>
+                    <widget id="craftercms.components.ExpiringDashlet"/>
+                </widgets>
+            </mainSection>
         </configuration>
     </widget>
     <widget id="craftercms.components.TinyMCE">
@@ -388,37 +354,40 @@
                     <!-- Plugins: https://www.tiny.cloud/docs/plugins/opensource/ -->
                     <tinymceOptions>
 
-              {
-                "menubar": true,
-                "theme": "silver",
-                "plugins": "print preview searchreplace autolink directionality visualblocks visualchars fullscreen image link media template codesample table charmap hr pagebreak nonbreaking anchor toc insertdatetime advlist lists wordcount textpattern help acecode paste editform",
-                "extended_valid_elements": "",
-                "valid_children": "",
-                "toolbar1": "formatselect | bold italic strikethrough forecolor backcolor | link | alignleft aligncenter alignright alignjustify | numlist bullist outdent indent | removeformat | editform",
-                "code_editor_wrap": false,
-                "toolbar_sticky": true,
-                "image_advtab": true,
-                "encoding": "xml",
-                "relative_urls": false,
-                "remove_script_host": false,
-                "convert_urls": false,
-                "remove_trailing_brs": false,
-                "media_live_embeds": true,
-                "autoresize_on_init": false,
-                "autoresize_bottom_margin": 0,
-                "menu": {
-                    "tools": { "title": "Tools", "items": "tinymcespellchecker code acecode wordcount" }
-                },
-                "automatic_uploads": true,
-                "file_picker_types":  "image media file",
-                "paste_data_images": true,
-                "templates": [],
-                "content_css": [],
-                "content_style": "body {}",
-                "contextmenu": false
-              }
+                        {
+                        "menubar": true,
+                        "theme": "silver",
+                        "plugins": "print preview searchreplace autolink directionality visualblocks visualchars
+                        fullscreen image link media template codesample table charmap hr pagebreak nonbreaking anchor
+                        toc insertdatetime advlist lists wordcount textpattern help acecode paste editform",
+                        "extended_valid_elements": "",
+                        "valid_children": "",
+                        "toolbar1": "formatselect | bold italic strikethrough forecolor backcolor | link | alignleft
+                        aligncenter alignright alignjustify | numlist bullist outdent indent | removeformat | editform",
+                        "code_editor_wrap": false,
+                        "toolbar_sticky": true,
+                        "image_advtab": true,
+                        "encoding": "xml",
+                        "relative_urls": false,
+                        "remove_script_host": false,
+                        "convert_urls": false,
+                        "remove_trailing_brs": false,
+                        "media_live_embeds": true,
+                        "autoresize_on_init": false,
+                        "autoresize_bottom_margin": 0,
+                        "menu": {
+                        "tools": { "title": "Tools", "items": "tinymcespellchecker code acecode wordcount" }
+                        },
+                        "automatic_uploads": true,
+                        "file_picker_types": "image media file",
+                        "paste_data_images": true,
+                        "templates": [],
+                        "content_css": [],
+                        "content_style": "body {}",
+                        "contextmenu": false
+                        }
 
-					</tinymceOptions>
+                    </tinymceOptions>
                 </setup>
             </setups>
         </configuration>
@@ -504,36 +473,42 @@
             </crafterSupportMacros>
             <transformPathToUrl label="Transform PATH to URL">
                 <value>
-					${urlTransformationService.transform('storeUrlToRenderUrl', STORE_URL)}</value>
+                    ${urlTransformationService.transform('storeUrlToRenderUrl', STORE_URL)}
+                </value>
             </transformPathToUrl>
             <renderComponentsList label="Render list of components">
                 <value>&lt;#list contentModel.VARIABLE_NAME.item as module&gt;
-	&lt;@renderComponent component=module /&gt;
-&lt;/#list&gt;</value>
+                    &lt;@renderComponent component=module /&gt;
+                    &lt;/#list&gt;
+                </value>
             </renderComponentsList>
             <iterateItemsListLoadContentItem label="Iterate over a list of items and load content item">
                 <value>&lt;#list contentModel.VARIABLE_NAME.item as myItem&gt;
-	&lt;#assign myContentItem =  siteItemService.getSiteItem(myItem.key) /&gt;
-	${myContentItem.variableName}
-&lt;/#list&gt;</value>
+                    &lt;#assign myContentItem = siteItemService.getSiteItem(myItem.key) /&gt;
+                    ${myContentItem.variableName}
+                    &lt;/#list&gt;
+                </value>
             </iterateItemsListLoadContentItem>
             <iterateRepeatGroup label="Iterate over repeat group">
                 <value>&lt;#list contentModel.VARIABLE_NAME.item as row&gt;
-	${row.VARIABLE_NAME}
-&lt;/#list&gt;</value>
+                    ${row.VARIABLE_NAME}
+                    &lt;/#list&gt;
+                </value>
             </iterateRepeatGroup>
             <fremarkerValueAssignment label="Freemarker value assignment">
                 <value>&lt;#assign imageSource = contentModel.image!"" /&gt;</value>
             </fremarkerValueAssignment>
             <freemarkerIf label="Freemarker value IF">
                 <value>&lt;#if CONDITION&gt;
-	...
-&lt;/#if&gt;</value>
+                    ...
+                    &lt;/#if&gt;
+                </value>
             </freemarkerIf>
             <freemarkerLoop label="Freemarker value LOOP">
                 <value>&lt;#list ARRAY as value&gt;
-	${value_index}: ${value}
-&lt;/#list&gt;</value>
+                    ${value_index}: ${value}
+                    &lt;/#list&gt;
+                </value>
             </freemarkerLoop>
             <freemarkerFragmentInclude label="Freemarker Fragment include">
                 <value>&lt;#include "/templates/PATH" /&gt;</value>
@@ -543,61 +518,72 @@
             </freemarkerLibraryImport>
             <htmlPage label="HTML Page">
                 <value>&lt;#import "/templates/system/common/crafter.ftl" as crafter /&gt;
-&lt;!doctype html&gt;
-&lt;html lang="en"&gt;
-  &lt;head&gt;
-    &lt;#-- Insert your head markup here --&gt;
-    &lt;@crafter.head /&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-    &lt;@crafter.body_top /&gt;
-    &lt;#-- Insert your body markup  here --&gt;
-    &lt;@crafter.body_bottom /&gt;
-  &lt;/body&gt;
-&lt;/html&gt;</value>
+                    &lt;!doctype html&gt;
+                    &lt;html lang="en"&gt;
+                    &lt;head&gt;
+                    &lt;#-- Insert your head markup here --&gt;
+                    &lt;@crafter.head /&gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                    &lt;@crafter.body_top /&gt;
+                    &lt;#-- Insert your body markup here --&gt;
+                    &lt;@crafter.body_bottom /&gt;
+                    &lt;/body&gt;
+                    &lt;/html&gt;
+                </value>
             </htmlPage>
             <specificHTMLTag label="Field (Specific HTML Tag)">
                 <value>
-					&lt;@crafter.DESIRED_TAG $field="FIELD_ID"&gt;${contentModel.FIELD_ID}&lt;/@crafter.DESIRED_TAG&gt;</value>
+                    &lt;@crafter.DESIRED_TAG $field="FIELD_ID"&gt;${contentModel.FIELD_ID}&lt;/@crafter.DESIRED_TAG&gt;
+                </value>
             </specificHTMLTag>
             <renderComponentCollection label="Render Component Collection">
-                <value>&lt;#-- Macro docs @ https://docs.craftercms.org/en/4.0/search.html?q=renderComponentCollection&amp;check_keywords=yes&amp;area=default --&gt;
-&lt;@crafter.renderComponentCollection $field="features_o" $containerAttributes={ "class": "features-container" } $itemAttributes={ "data-custom-attribute": "true" } /&gt;</value>
+                <value>&lt;#-- Macro docs @ https://docs.craftercms.org/en/4.0/search.html?q=renderComponentCollection&amp;check_keywords=yes&amp;area=default
+                    --&gt;
+                    &lt;@crafter.renderComponentCollection $field="features_o" $containerAttributes={ "class":
+                    "features-container" } $itemAttributes={ "data-custom-attribute": "true" } /&gt;
+                </value>
             </renderComponentCollection>
             <renderRepeatGroup label="Render Repeat Group">
-                <value>&lt;#-- Macro docs @ https://docs.craftercms.org/en/4.0/search.html?q=renderRepeatCollection&amp;check_keywords=yes&amp;area=default --&gt;
-&lt;@crafter.renderRepeatGroup
-  $field="VARIABLE_NAME"
-  $containerAttributes={'attr': 'value'};
-  item, index
-&gt;
-  &lt;@crafter.div
-    $field="sections_o.section_html"
-    $index=index
-  &gt;
-    ${item.itemField}
-  &lt;/@crafter.div&gt;
-&lt;/@crafter.renderRepeatGroup&gt;</value>
+                <value>&lt;#-- Macro docs @ https://docs.craftercms.org/en/4.0/search.html?q=renderRepeatCollection&amp;check_keywords=yes&amp;area=default
+                    --&gt;
+                    &lt;@crafter.renderRepeatGroup
+                    $field="VARIABLE_NAME"
+                    $containerAttributes={'attr': 'value'};
+                    item, index
+                    &gt;
+                    &lt;@crafter.div
+                    $field="sections_o.section_html"
+                    $index=index
+                    &gt;
+                    ${item.itemField}
+                    &lt;/@crafter.div&gt;
+                    &lt;/@crafter.renderRepeatGroup&gt;
+                </value>
             </renderRepeatGroup>
             <navigation label="Navigation">
-                <value>&lt;#-- Macro docs @ https://docs.craftercms.org/en/4.0/search.html?q=crafter.navigation&amp;check_keywords=yes&amp;area=default --&gt;
-&lt;@crafter.navigation
-  showNavElement=false
-  url="NAVIGATION_URL"
-  containerElementClass="container-class"
-  itemWrapperClass="item-wrapper-class"
-  itemClass="item-class"
-  depth=2
-/&gt;</value>
+                <value>&lt;#-- Macro docs @ https://docs.craftercms.org/en/4.0/search.html?q=crafter.navigation&amp;check_keywords=yes&amp;area=default
+                    --&gt;
+                    &lt;@crafter.navigation
+                    showNavElement=false
+                    url="NAVIGATION_URL"
+                    containerElementClass="container-class"
+                    itemWrapperClass="item-wrapper-class"
+                    itemClass="item-class"
+                    depth=2
+                    /&gt;
+                </value>
             </navigation>
             <breadcrumb label="Breadcrumb">
-                <value>&lt;#-- Macro docs @ https://docs.craftercms.org/en/4.0/search.html?q=crafter.breadcrumb&amp;check_keywords=yes&amp;area=default --&gt;
-&lt;@crafter.breadcrumb
-  url=contentModel.storeUrl
-  containerElementClass="container-element-class"
-  itemWrapperClass="item-wrapper-class"
-  navElementAttributes={ "data-custom-attribute": "true" }
-/&gt;</value>
+                <value>&lt;#-- Macro docs @ https://docs.craftercms.org/en/4.0/search.html?q=crafter.breadcrumb&amp;check_keywords=yes&amp;area=default
+                    --&gt;
+                    &lt;@crafter.breadcrumb
+                    url=contentModel.storeUrl
+                    containerElementClass="container-element-class"
+                    itemWrapperClass="item-wrapper-class"
+                    navElementAttributes={ "data-custom-attribute": "true" }
+                    /&gt;
+                </value>
             </breadcrumb>
         </reference>
         <reference id="craftercms.groovyCodeSnippets">
@@ -627,7 +613,8 @@
             </session>
             <transformPathToUrl label="Transform PATH to URL">
                 <value>
-					urlTransformationService.transform('storeUrlToRenderUrl', STORE_URL)</value>
+                    urlTransformationService.transform('storeUrlToRenderUrl', STORE_URL)
+                </value>
             </transformPathToUrl>
             <userProfile label="User Profile">
                 <value>profile</value>
