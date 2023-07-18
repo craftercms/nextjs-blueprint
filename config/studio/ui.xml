@@ -257,7 +257,7 @@
                     <configuration>
                         <title id="launcher.siteSectionTitle">
                             <defaultMessage>
-                                Site &lt;muted&gt;• {siteName}&lt;/muted&gt;
+                                Project &lt;muted&gt;• {siteName}&lt;/muted&gt;
                             </defaultMessage>
                         </title>
                         <widgets>
