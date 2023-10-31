@@ -21,8 +21,8 @@
 -->
 <site-config>
     <version>4.0.1.2</version>
-    <wem-project>nextjs-starter</wem-project>
-    <display-name>nextjs-starter</display-name>
+    <wem-project>nextjs</wem-project>
+    <display-name>nextjs</display-name>
     <!-- Site URLs. Default to http://localhost:8080 if blank -->
     <site-urls>
         <authoring-url/>

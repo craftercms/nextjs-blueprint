@@ -9,7 +9,7 @@ import Layout from '../components/Layout';
 import lightTheme from '../styles/theme/default';
 import '../styles/globals.css';
 import { crafterConf } from '@craftercms/classes';
-import { fetchIsAuthoring } from '@craftercms/ice';
+import { fetchIsAuthoring } from '@craftercms/experience-builder';
 import createCache from '@emotion/cache';
 import Footer from '../components/Footer';
 import RichText from '../components/RichText';
