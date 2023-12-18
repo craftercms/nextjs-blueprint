@@ -112,38 +112,38 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@craftercms/classes@npm:4.1.2, @craftercms/classes@npm:^4.1.2":
-  version: 4.1.2
-  resolution: "@craftercms/classes@npm:4.1.2"
+"@craftercms/classes@npm:4.1.2-support.2":
+  version: 4.1.2-support.2
+  resolution: "@craftercms/classes@npm:4.1.2-support.2"
   dependencies:
-    "@craftercms/models": 4.1.2
-    "@craftercms/utils": 4.1.2
+    "@craftercms/models": 4.1.2-support.2
+    "@craftercms/utils": 4.1.2-support.2
     query-string: ^7.1.0
     url-search-params-polyfill: ^5.0.0
-  checksum: b1259f31573ef14a8bfe3702debdca745eafb0bad1a08076dc4d0ba28129e264e7d116be281f8e326c9f10d8789bdbf2f7ca83fd0eb791204e475ac2e4e12768
+  checksum: 8c1f94c6d01b403664b5e031360bd1c4515a2f590b41b12f4f91eaee83ea6076db5cb462ebc03fa520c09bd974b1089e1794948736772a3126deee84b3a4a883
   languageName: node
   linkType: hard
 
-"@craftercms/content@npm:4.1.2, @craftercms/content@npm:^4.1.2":
-  version: 4.1.2
-  resolution: "@craftercms/content@npm:4.1.2"
+"@craftercms/content@npm:4.1.2-support.2":
+  version: 4.1.2-support.2
+  resolution: "@craftercms/content@npm:4.1.2-support.2"
   dependencies:
-    "@craftercms/classes": 4.1.2
-    "@craftercms/models": 4.1.2
-    "@craftercms/utils": 4.1.2
+    "@craftercms/classes": 4.1.2-support.2
+    "@craftercms/models": 4.1.2-support.2
+    "@craftercms/utils": 4.1.2-support.2
     rxjs: ^7.0.0
-  checksum: 255590be88b92cead9c609251205fa9203dbf8a601ef9c402c3ed790d2464e82335281fc3a902a8ca859beec4084b13a7f3498c3bbded3532bb17852a7e1617e
+  checksum: c294f780542c23df9bbf96f6b8e65b5725945ec1cb6f8532fca708e9224e4347f635cc3ced3c499c9d117d4bf282e584998b236e759ed6c6b56c2179109f3501
   languageName: node
   linkType: hard
 
-"@craftercms/experience-builder@npm:^4.1.2-1":
-  version: 4.1.2
-  resolution: "@craftercms/experience-builder@npm:4.1.2"
+"@craftercms/experience-builder@npm:4.1.2-support.3":
+  version: 4.1.2-support.3
+  resolution: "@craftercms/experience-builder@npm:4.1.2-support.3"
   dependencies:
-    "@craftercms/classes": 4.1.2
-    "@craftercms/content": 4.1.2
-    "@craftercms/ice": 4.1.2-1
-    "@craftercms/search": 4.1.2
+    "@craftercms/classes": 4.1.2-support.2
+    "@craftercms/content": 4.1.2-support.2
+    "@craftercms/ice": 4.1.2-support.2
+    "@craftercms/search": 4.1.2-support.2
     "@craftercms/studio-ui": 4.1.2
     "@reduxjs/toolkit": ^1.9.2
     "@types/react-dom": ^18.0.10
@@ -165,32 +165,25 @@ __metadata:
     redux: ^4.2.1
     redux-observable: ^2.0.0
     rxjs: ^7.0.0
-  checksum: b8da03ee84c7b0225d20ccd41a9c3c7c2420a42469a537208036e65cbdcaccfc3c2c5f3af6f3d78cd0d4f6182c2ee1d9fc9b830d4b0ec5a0046b7e1c1c12bdfc
+  checksum: 1aa8ecfc1664f67c37547032de7872edb55adb99c695ddd3c473c27aefcdfef95ecb4c3664d3e709af728cb72d2df4bb2a4361a2b6b39b5787ea6559542e8fa4
   languageName: node
   linkType: hard
 
-"@craftercms/ice@npm:4.1.2-1":
-  version: 4.1.2-1
-  resolution: "@craftercms/ice@npm:4.1.2-1"
+"@craftercms/ice@npm:4.1.2-support.2":
+  version: 4.1.2-support.2
+  resolution: "@craftercms/ice@npm:4.1.2-support.2"
   dependencies:
-    "@craftercms/models": 4.1.2-1
+    "@craftercms/models": 4.1.2-support.2
   peerDependencies:
     react: ^18.0.0
-  checksum: 8c5866f7fbcf2793d35ec94f4cfc12c2b352d0e8b4e213e47da9e62cd6c911c587a21c81e5b496e32177923c44a820f121ff77363b2c21ac4d4a4d5b0cd7dbed
+  checksum: d242695d5f8f614eef4125ca2da3bd724aa4d5ce73e7c203dc36763c6d06138cb33c29e68728d3366093f3db8b4c67184b6bcec62ef1948f732959f44c079e70
   languageName: node
   linkType: hard
 
-"@craftercms/models@npm:4.1.2, @craftercms/models@npm:^4.1.2-1":
-  version: 4.1.2
-  resolution: "@craftercms/models@npm:4.1.2"
-  checksum: 7e9c22a67b722ac638b2823f487698a735a7c954fee2b38dde35bc135ce1dd492bfe26e9bc1f53e46583dd06f1a2a0d843cc23e927bcedf0e0ae57c0bd23cb1e
-  languageName: node
-  linkType: hard
-
-"@craftercms/models@npm:4.1.2-1":
-  version: 4.1.2-1
-  resolution: "@craftercms/models@npm:4.1.2-1"
-  checksum: e5c9b4385fdc558798dc3755fc2ec8a433d801f1c7acf5c19c07e69416be36a9f3166c552d0e4735a3ddde14c1e6cfde679b1f51ca563f1862a16057a466f9bf
+"@craftercms/models@npm:4.1.2-support.2":
+  version: 4.1.2-support.2
+  resolution: "@craftercms/models@npm:4.1.2-support.2"
+  checksum: 526d0f7e6112d50a22bb480e7812533b090c5f8113ba09e016d68bfcb2a74a7336e502d09e725aa2d83649289a76c2b673881d2b214100d46510dbcb24176127
   languageName: node
   linkType: hard
 
@@ -198,10 +191,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@craftercms/nextjs-blueprint@workspace:."
   dependencies:
-    "@craftercms/classes": ^4.1.2
-    "@craftercms/content": ^4.1.2
-    "@craftercms/experience-builder": ^4.1.2-1
-    "@craftercms/models": ^4.1.2-1
+    "@craftercms/classes": 4.1.2-support.2
+    "@craftercms/content": 4.1.2-support.2
+    "@craftercms/experience-builder": 4.1.2-support.3
+    "@craftercms/models": 4.1.2-support.2
     "@emotion/cache": ^11.10.5
     "@emotion/css": ^11.10.6
     "@emotion/react": ^11.10.6
@@ -214,7 +207,7 @@ __metadata:
     eslint: 8.6.0
     eslint-config-next: 12.0.7
     js-cookie: ^3.0.5
-    next: 14.0.1
+    next: 14.0.4
     next-auth: ^4.24.4
     prettier: ^2.8.8
     prop-types: ^15.8.1
@@ -229,17 +222,17 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@craftercms/search@npm:4.1.2":
-  version: 4.1.2
-  resolution: "@craftercms/search@npm:4.1.2"
+"@craftercms/search@npm:4.1.2-support.2":
+  version: 4.1.2-support.2
+  resolution: "@craftercms/search@npm:4.1.2-support.2"
   dependencies:
-    "@craftercms/classes": 4.1.2
-    "@craftercms/models": 4.1.2
-    "@craftercms/utils": 4.1.2
+    "@craftercms/classes": 4.1.2-support.2
+    "@craftercms/models": 4.1.2-support.2
+    "@craftercms/utils": 4.1.2-support.2
     rxjs: ^7.0.0
     url-search-params-polyfill: ^5.0.0
     uuid: ^3.4.0
-  checksum: 4f5224ff00e6fcdb093703bb91430d9434b20308d88888423326db0e6c952c80ad21955169772bdd4d222bbfce7af9e2ce9508373b3e1ce4919b656b8a9aa45c
+  checksum: ee0d033160f89224b0bbf885bd8622fafe69bbd05e6fde5d56e036e3f372c400e0ca5dbb869f9df648d74a879c30ce91f63ddf8a761da65d48059ba27c585474
   languageName: node
   linkType: hard
 
@@ -316,10 +309,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@craftercms/utils@npm:4.1.2":
-  version: 4.1.2
-  resolution: "@craftercms/utils@npm:4.1.2"
-  checksum: 57cd4af9ee20482f273bc8a5f911be19a0a7bf1f065955a2d6b0fb72ad3a4bea3421dfa51561059d60773c4b41ded30bf2ed29585ee0b493ad2963d6a3e9a0be
+"@craftercms/utils@npm:4.1.2-support.2":
+  version: 4.1.2-support.2
+  resolution: "@craftercms/utils@npm:4.1.2-support.2"
+  checksum: 532b9e144e2cb331f1f73469924a03bc676a75f364b054fa83d8b3d535876344cf04f114642933865fcbdc947bbbccfe28998f07311eaa21c4aaf8b30c0d4772
   languageName: node
   linkType: hard
 
@@ -1005,10 +998,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/env@npm:14.0.1":
-  version: 14.0.1
-  resolution: "@next/env@npm:14.0.1"
-  checksum: 1fab6732f877c3702fce12396f16046f9b7a59c70b0d0b3db713995eed431706d12175530709d21c613682865ce82ef965a5719a43d6bc84142462a8ed558cda
+"@next/env@npm:14.0.4":
+  version: 14.0.4
+  resolution: "@next/env@npm:14.0.4"
+  checksum: e8dac033d92c10e55d3b1802f8fd9be00383ed9d479add9fee0823a9a0bf2ab0f4421d5baea52921871c82daf5cd292421db8a1ed5d173e3cb088c3b3a984c0d
   languageName: node
   linkType: hard
 
@@ -1021,65 +1014,65 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-arm64@npm:14.0.1":
-  version: 14.0.1
-  resolution: "@next/swc-darwin-arm64@npm:14.0.1"
+"@next/swc-darwin-arm64@npm:14.0.4":
+  version: 14.0.4
+  resolution: "@next/swc-darwin-arm64@npm:14.0.4"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-x64@npm:14.0.1":
-  version: 14.0.1
-  resolution: "@next/swc-darwin-x64@npm:14.0.1"
+"@next/swc-darwin-x64@npm:14.0.4":
+  version: 14.0.4
+  resolution: "@next/swc-darwin-x64@npm:14.0.4"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-gnu@npm:14.0.1":
-  version: 14.0.1
-  resolution: "@next/swc-linux-arm64-gnu@npm:14.0.1"
+"@next/swc-linux-arm64-gnu@npm:14.0.4":
+  version: 14.0.4
+  resolution: "@next/swc-linux-arm64-gnu@npm:14.0.4"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-musl@npm:14.0.1":
-  version: 14.0.1
-  resolution: "@next/swc-linux-arm64-musl@npm:14.0.1"
+"@next/swc-linux-arm64-musl@npm:14.0.4":
+  version: 14.0.4
+  resolution: "@next/swc-linux-arm64-musl@npm:14.0.4"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-gnu@npm:14.0.1":
-  version: 14.0.1
-  resolution: "@next/swc-linux-x64-gnu@npm:14.0.1"
+"@next/swc-linux-x64-gnu@npm:14.0.4":
+  version: 14.0.4
+  resolution: "@next/swc-linux-x64-gnu@npm:14.0.4"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-musl@npm:14.0.1":
-  version: 14.0.1
-  resolution: "@next/swc-linux-x64-musl@npm:14.0.1"
+"@next/swc-linux-x64-musl@npm:14.0.4":
+  version: 14.0.4
+  resolution: "@next/swc-linux-x64-musl@npm:14.0.4"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-win32-arm64-msvc@npm:14.0.1":
-  version: 14.0.1
-  resolution: "@next/swc-win32-arm64-msvc@npm:14.0.1"
+"@next/swc-win32-arm64-msvc@npm:14.0.4":
+  version: 14.0.4
+  resolution: "@next/swc-win32-arm64-msvc@npm:14.0.4"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-win32-ia32-msvc@npm:14.0.1":
-  version: 14.0.1
-  resolution: "@next/swc-win32-ia32-msvc@npm:14.0.1"
+"@next/swc-win32-ia32-msvc@npm:14.0.4":
+  version: 14.0.4
+  resolution: "@next/swc-win32-ia32-msvc@npm:14.0.4"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@next/swc-win32-x64-msvc@npm:14.0.1":
-  version: 14.0.1
-  resolution: "@next/swc-win32-x64-msvc@npm:14.0.1"
+"@next/swc-win32-x64-msvc@npm:14.0.4":
+  version: 14.0.4
+  resolution: "@next/swc-win32-x64-msvc@npm:14.0.4"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -3281,7 +3274,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graceful-fs@npm:^4.1.2, graceful-fs@npm:^4.2.4":
+"graceful-fs@npm:^4.1.2, graceful-fs@npm:^4.2.11, graceful-fs@npm:^4.2.4":
   version: 4.2.11
   resolution: "graceful-fs@npm:4.2.11"
   checksum: ac85f94da92d8eb6b7f5a8b20ce65e43d66761c55ce85ac96df6865308390da45a8d3f0296dd3a663de65d30ba497bd46c696cc1e248c72b13d6d567138a4fc7
@@ -4202,23 +4195,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next@npm:14.0.1":
-  version: 14.0.1
-  resolution: "next@npm:14.0.1"
+"next@npm:14.0.4":
+  version: 14.0.4
+  resolution: "next@npm:14.0.4"
   dependencies:
-    "@next/env": 14.0.1
-    "@next/swc-darwin-arm64": 14.0.1
-    "@next/swc-darwin-x64": 14.0.1
-    "@next/swc-linux-arm64-gnu": 14.0.1
-    "@next/swc-linux-arm64-musl": 14.0.1
-    "@next/swc-linux-x64-gnu": 14.0.1
-    "@next/swc-linux-x64-musl": 14.0.1
-    "@next/swc-win32-arm64-msvc": 14.0.1
-    "@next/swc-win32-ia32-msvc": 14.0.1
-    "@next/swc-win32-x64-msvc": 14.0.1
+    "@next/env": 14.0.4
+    "@next/swc-darwin-arm64": 14.0.4
+    "@next/swc-darwin-x64": 14.0.4
+    "@next/swc-linux-arm64-gnu": 14.0.4
+    "@next/swc-linux-arm64-musl": 14.0.4
+    "@next/swc-linux-x64-gnu": 14.0.4
+    "@next/swc-linux-x64-musl": 14.0.4
+    "@next/swc-win32-arm64-msvc": 14.0.4
+    "@next/swc-win32-ia32-msvc": 14.0.4
+    "@next/swc-win32-x64-msvc": 14.0.4
     "@swc/helpers": 0.5.2
     busboy: 1.6.0
     caniuse-lite: ^1.0.30001406
+    graceful-fs: ^4.2.11
     postcss: 8.4.31
     styled-jsx: 5.1.1
     watchpack: 2.4.0
@@ -4253,7 +4247,7 @@ __metadata:
       optional: true
   bin:
     next: dist/bin/next
-  checksum: d142407f47012eb57ba3932f91453960c79d7df2fef03ded581f32195b98a4378e13c49709f498a112d142109a8edd73f40357ee102a6bd4d7b1f76de9f0877a
+  checksum: 879842979d3c7e2d2e2cd3edad3e715d408060a286bb12299089e08d7142af9effceee877e6d18aad359983119d025298ec5c63dd6317443027b47dc5167ac40
   languageName: node
   linkType: hard
 
