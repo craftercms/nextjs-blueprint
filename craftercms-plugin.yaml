@@ -14,7 +14,7 @@ plugin:
   version:
     major: 1
     minor: 0
-    patch: 13
+    patch: 14
   description: |
     Base template for building CrafterCMS projects with Next.js.
   website:
@@ -58,6 +58,18 @@ plugin:
     - major: 4
       minor: 1
       patch: 8
+    - major: 4
+      minor: 1
+      patch: 9
+    - major: 4
+      minor: 1
+      patch: 10
+    - major: 4
+      minor: 1
+      patch: 11
+    - major: 4
+      minor: 1
+      patch: 12
     - major: 4
       minor: 2
       patch: 0
