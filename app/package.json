@@ -9,10 +9,10 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "@craftercms/classes": "^4.1.2",
-    "@craftercms/content": "^4.1.2",
-    "@craftercms/experience-builder": "^4.1.2-1",
-    "@craftercms/models": "^4.1.2-1",
+    "@craftercms/classes": "4.1.2-support.2",
+    "@craftercms/content": "4.1.2-support.2",
+    "@craftercms/experience-builder": "4.1.2-support.3",
+    "@craftercms/models": "4.1.2-support.2",
     "@emotion/cache": "^11.10.5",
     "@emotion/css": "^11.10.6",
     "@emotion/react": "^11.10.6",
@@ -23,7 +23,7 @@
     "@mui/material": "^5.14.16",
     "axios": "^1.3.4",
     "js-cookie": "^3.0.5",
-    "next": "14.0.1",
+    "next": "14.0.4",
     "next-auth": "^4.24.4",
     "prop-types": "^15.8.1",
     "react": "18.2.0",
@@ -40,5 +40,5 @@
     "eslint-config-next": "12.0.7",
     "prettier": "^2.8.8"
   },
-  "packageManager": "yarn@3.5.0"
+  "packageManager": "yarn@4.1.0"
 }
