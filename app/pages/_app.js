@@ -25,6 +25,11 @@ crafterConf.configure({
   baseUrl: process.env.NEXT_PUBLIC_CRAFTERCMS_HOST_NAME ?? '',
   site: siteName,
   cors: true,
+  fetchConfig: {
+    headers: {
+      'X-Crafter-Preview': process.env.NEXT_PUBLIC_PREVIEW_COOKIE ?? ''
+    }
+  }
 });
 
 export const contentTypeMap = {
