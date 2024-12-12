@@ -36,6 +36,7 @@
     </li>
     <li>
       Create a copy of <em>app/.env.local.example</em> to produce <em>app/.env.local</em>.
+      Set the value of <strong>NEXT_PUBLIC_PREVIEW_COOKIE</strong> with the value of the generated preview cookie in crafter studio.
       If you named your project <strong>nextjs</strong> and CrafterCMS is running on <strong>localhost:8080</strong>,
       no further edits are necessary; otherwise, change the file accordingly.
     </li>
