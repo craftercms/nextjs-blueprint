@@ -9,10 +9,10 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "@craftercms/classes": "4.1.2-support.2",
-    "@craftercms/content": "4.1.2-support.2",
-    "@craftercms/experience-builder": "4.1.2-support.3",
-    "@craftercms/models": "4.1.2-support.2",
+    "@craftercms/classes": "4.2.0",
+    "@craftercms/content": "4.2.0",
+    "@craftercms/experience-builder": "4.2.0",
+    "@craftercms/models": "4.2.0",
     "@emotion/cache": "^11.10.5",
     "@emotion/css": "^11.10.6",
     "@emotion/react": "^11.10.6",
