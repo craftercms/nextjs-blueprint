@@ -44,7 +44,7 @@ export default function Hero(props) {
           model={model}
           component={ImageWithRef}
           fieldId="background_s"
-          render={(img) => `${process.env.NEXT_PUBLIC_CRAFTERCMS_HOST_NAME}${img}`}
+          render={(img) => img ? `${process.env.NEXT_PUBLIC_CRAFTERCMS_HOST_NAME}${img}` : ''}
         />
         <RenderField
           model={model}
