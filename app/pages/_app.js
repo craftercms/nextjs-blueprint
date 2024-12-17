@@ -21,10 +21,19 @@ if (typeof siteName === 'undefined') {
   throw new Error('The site name value of is blank. Set `NEXT_PUBLIC_CRAFTERCMS_SITE_NAME=YOUR_SITE_NAME` in your .env file.');
 }
 
+if (process.env.NODE_ENV === 'development' && !process.env.NEXT_PUBLIC_PREVIEW_TOKEN) {
+  console.error('The `NEXT_PUBLIC_PREVIEW_TOKEN` environment variable is not set. A preview token is required for previewing content in authoring');
+}
+
 crafterConf.configure({
   baseUrl: process.env.NEXT_PUBLIC_CRAFTERCMS_HOST_NAME ?? '',
   site: siteName,
-  cors: true,
+  fetchConfig: {
+    mode: 'cors',
+    headers: {
+      'X-Crafter-Preview': process.env.NEXT_PUBLIC_PREVIEW_TOKEN ?? ''
+    }
+  }
 });
 
 export const contentTypeMap = {

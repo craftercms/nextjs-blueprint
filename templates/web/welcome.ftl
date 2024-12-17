@@ -32,12 +32,18 @@
   <ol>
     <li>
       In the CrafterCMS site sandbox directory, you'll find a directory called
-      app, which is the Next.js app. Visit that directory on your terminal and run `yarn`
+      app, which is the Next.js app. Visit that directory on your terminal and run `yarn`.
     </li>
+    <li>Make sure the `postinstall` script ran correctly. Run manually if you struggle to run or build the app.</li>
     <li>
       Create a copy of <em>app/.env.local.example</em> to produce <em>app/.env.local</em>.
       If you named your project <strong>nextjs</strong> and CrafterCMS is running on <strong>localhost:8080</strong>,
       no further edits are necessary; otherwise, change the file accordingly.
+    </li>
+    <li>
+      On Studio, go to "Token Management", press the "+ Preview Token" button. Generate a token and set it as the value of the `NEXT_PUBLIC_PREVIEW_TOKEN` variable in <em>app/.env.local</em>.
+      For example:<br/><pre style="max-width:100%;overflow:auto"><code>NEXT_PUBLIC_PREVIEW_TOKEN="CCE-V1#+1hXtgsDwR73RZPmheYvfulj0d892um6twN48+j99+HlN4MFNnffkUHnHvwmsRXP"</code></pre>
+      Note the value may require quotes.
     </li>
     <li>Run `yarn dev` to start the node server on localhost:3000</li>
     <li>Open Project Tools (on the sidebar on the left) and select "Configuration"</li>
