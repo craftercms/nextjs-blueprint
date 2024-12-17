@@ -1,0 +1,21 @@
+diff --git a/node_modules/@craftercms/experience-builder/react/GuestProxy.js b/node_modules/@craftercms/experience-builder/react/GuestProxy.js
+index a789064..07e3ff5 100644
+--- a/node_modules/@craftercms/experience-builder/react/GuestProxy.js
++++ b/node_modules/@craftercms/experience-builder/react/GuestProxy.js
+@@ -19,7 +19,6 @@ import { useGuestContext, useSelector } from './GuestContext';
+ import * as ElementRegistry from '../elementRegistry';
+ import { getParentElementFromICEProps } from '../elementRegistry';
+ import * as iceRegistry from '../iceRegistry';
+-import $ from '../jquery';
+ import { contentTypes$, getCachedContentType, getCachedModel, getModelIdFromInheritedField, models$, operations$, paths$ } from '../contentController';
+ import { zip } from 'rxjs';
+ import { filter, take } from 'rxjs/operators';
+@@ -31,6 +30,8 @@ import { forEach } from '@craftercms/studio-ui/utils/array';
+ import { isSimple, popPiece, removeLastPiece } from '@craftercms/studio-ui/utils/string';
+ import { addAnimation } from '../utils/dom';
+ import { emptyCollectionClass } from '../constants';
++import dynamic from 'next/dynamic';
++const $ = dynamic(() => import('../jquery'), { ssr: false });
+ export function GuestProxy() {
+     const draggable = useSelector((state) => state.draggable);
+     const { onEvent } = useGuestContext();
