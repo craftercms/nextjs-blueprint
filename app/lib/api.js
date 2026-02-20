@@ -1,5 +1,5 @@
 import {
-  getDescriptor,
+  getItem,
   parseDescriptor,
   getNavTree,
   urlTransform
@@ -8,8 +8,8 @@ import { firstValueFrom, map, switchMap } from 'rxjs';
 
 export async function getModel(path = "/site/website/index.xml") {
   return await firstValueFrom(
-    getDescriptor(path, { flatten: true }).pipe(
-      map((descriptor) => parseDescriptor(descriptor, { parseFieldValueTypes: true }))
+    getItem(path, { flatten: true }).pipe(
+      map((item) => parseDescriptor(item.descriptorDom, { parseFieldValueTypes: true }))
       // Can use this for debugging purposes.
       // tap(console.log)
     )
@@ -19,8 +19,8 @@ export async function getModel(path = "/site/website/index.xml") {
 export async function getModelByUrl(webUrl = '/') {
   return await firstValueFrom(
     urlTransform('renderUrlToStoreUrl', webUrl).pipe(
-      switchMap((path) => getDescriptor(path, { flatten: true }).pipe(
-        map((descriptor) => parseDescriptor(descriptor, { parseFieldValueTypes: true }))
+      switchMap((path) => getItem(path, { flatten: true }).pipe(
+        map((item) => parseDescriptor(item.descriptorDom, { parseFieldValueTypes: true }))
       ))
     )
   );
