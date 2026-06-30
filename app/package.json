@@ -10,10 +10,10 @@
     "postinstall": "patch-package"
   },
   "dependencies": {
-    "@craftercms/classes": "4.2.0",
-    "@craftercms/content": "4.2.0",
-    "@craftercms/experience-builder": "^4.2.0",
-    "@craftercms/models": "4.2.0",
+    "@craftercms/classes": "4.4.0",
+    "@craftercms/content": "4.4.2",
+    "@craftercms/experience-builder": "^4.3.0",
+    "@craftercms/models": "4.3.0",
     "@emotion/cache": "^11.10.5",
     "@emotion/css": "^11.10.6",
     "@emotion/react": "^11.10.6",
@@ -32,8 +32,11 @@
     "react-world-flags": "^1.6.0",
     "redux": "^4.2.1",
     "redux-observable": "^2.0.0",
-    "rxjs": "^7.5.2",
+    "rxjs": "^7.8.1",
     "swr": "^2.2.4"
+  },
+  "resolutions": {
+    "rxjs": "^7.8.1"
   },
   "devDependencies": {
     "eslint": "8.6.0",
